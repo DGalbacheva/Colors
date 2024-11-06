@@ -2,7 +2,7 @@
 //  ColorsTableViewController.swift
 //  Colors
 //
-//  Created by MacBook Pro 15 on 06.11.2024.
+//  Created by Doroteya Galbacheva on 06.11.2024.
 //
 
 import UIKit
@@ -15,7 +15,10 @@ class ColorsTableViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func tempButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

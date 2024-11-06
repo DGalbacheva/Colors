@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		334269C12CDB55DC0033762F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269C02CDB55DC0033762F /* AppDelegate.swift */; };
 		334269C32CDB55DC0033762F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269C22CDB55DC0033762F /* SceneDelegate.swift */; };
-		334269C52CDB55DC0033762F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269C42CDB55DC0033762F /* ViewController.swift */; };
 		334269C82CDB55DC0033762F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 334269C72CDB55DC0033762F /* Base */; };
 		334269CA2CDB55DE0033762F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334269C92CDB55DE0033762F /* Assets.xcassets */; };
 		334269CD2CDB55DE0033762F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 334269CC2CDB55DE0033762F /* Base */; };
+		334269D52CDB56660033762F /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269D42CDB56660033762F /* ColorsTableViewController.swift */; };
+		334269D72CDB57630033762F /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269D62CDB57630033762F /* ColorsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		334269BD2CDB55DC0033762F /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334269C02CDB55DC0033762F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		334269C22CDB55DC0033762F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		334269C42CDB55DC0033762F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		334269C72CDB55DC0033762F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		334269C92CDB55DE0033762F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		334269CC2CDB55DE0033762F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		334269CE2CDB55DE0033762F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334269D42CDB56660033762F /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		334269D62CDB57630033762F /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				334269C02CDB55DC0033762F /* AppDelegate.swift */,
 				334269C22CDB55DC0033762F /* SceneDelegate.swift */,
-				334269C42CDB55DC0033762F /* ViewController.swift */,
+				334269D42CDB56660033762F /* ColorsTableViewController.swift */,
+				334269D62CDB57630033762F /* ColorsDetailViewController.swift */,
 				334269C62CDB55DC0033762F /* Main.storyboard */,
 				334269C92CDB55DE0033762F /* Assets.xcassets */,
 				334269CB2CDB55DE0033762F /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334269C52CDB55DC0033762F /* ViewController.swift in Sources */,
 				334269C12CDB55DC0033762F /* AppDelegate.swift in Sources */,
 				334269C32CDB55DC0033762F /* SceneDelegate.swift in Sources */,
+				334269D72CDB57630033762F /* ColorsDetailViewController.swift in Sources */,
+				334269D52CDB56660033762F /* ColorsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
