@@ -14,6 +14,7 @@
 		334269CD2CDB55DE0033762F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 334269CC2CDB55DE0033762F /* Base */; };
 		334269D52CDB56660033762F /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269D42CDB56660033762F /* ColorsTableViewController.swift */; };
 		334269D72CDB57630033762F /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269D62CDB57630033762F /* ColorsDetailViewController.swift */; };
+		334269EB2CE0984E0033762F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334269EA2CE0984E0033762F /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		334269CE2CDB55DE0033762F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		334269D42CDB56660033762F /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
 		334269D62CDB57630033762F /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
+		334269EA2CE0984E0033762F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				334269C22CDB55DC0033762F /* SceneDelegate.swift */,
 				334269D42CDB56660033762F /* ColorsTableViewController.swift */,
 				334269D62CDB57630033762F /* ColorsDetailViewController.swift */,
+				334269EA2CE0984E0033762F /* UIColor+Extension.swift */,
 				334269C62CDB55DC0033762F /* Main.storyboard */,
 				334269C92CDB55DE0033762F /* Assets.xcassets */,
 				334269CB2CDB55DE0033762F /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				334269C32CDB55DC0033762F /* SceneDelegate.swift in Sources */,
 				334269D72CDB57630033762F /* ColorsDetailViewController.swift in Sources */,
 				334269D52CDB56660033762F /* ColorsTableViewController.swift in Sources */,
+				334269EB2CE0984E0033762F /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,18 +17,10 @@ class ColorsTableViewController: UIViewController {
     
     func addRandomColors() {
         for _ in 0..<50 {
-            colors.append(createRandomColor())
+            colors.append(.random())
         }
     }
-    
-    func createRandomColor() -> UIColor {
-        let randomColor = UIColor(red: CGFloat.random(in: 0...1),
-                                  green: CGFloat.random(in: 0...1),
-                                  blue: CGFloat.random(in: 0...1),
-                                  alpha: 1)
-        return randomColor
-    }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! ColorsDetailViewController
         destinationVC.color = sender as? UIColor
