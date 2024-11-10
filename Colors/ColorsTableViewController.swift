@@ -28,6 +28,11 @@ class ColorsTableViewController: UIViewController {
                                   alpha: 1)
         return randomColor
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! ColorsDetailViewController
+        destinationVC.color = sender as? UIColor
+    }
 }
 
 extension ColorsTableViewController: UITableViewDelegate, UITableViewDataSource {
@@ -45,6 +50,7 @@ extension ColorsTableViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)
+        let color = colors[indexPath.row]
+        performSegue(withIdentifier: "ToColorsDetailVC", sender: color)
     }
 }

@@ -38,8 +38,8 @@
                         <viewLayoutGuide key="safeArea" id="nfF-Ce-5fw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="FVQ-ZU-o3o" secondAttribute="bottom" id="IfR-mQ-94E"/>
                             <constraint firstItem="FVQ-ZU-o3o" firstAttribute="leading" secondItem="F62-Qj-i9M" secondAttribute="leading" id="WrG-sU-PwH"/>
+                            <constraint firstAttribute="bottom" secondItem="FVQ-ZU-o3o" secondAttribute="bottom" id="lt3-je-ITe"/>
                             <constraint firstAttribute="trailing" secondItem="FVQ-ZU-o3o" secondAttribute="trailing" id="m1n-vu-ZXf"/>
                             <constraint firstItem="FVQ-ZU-o3o" firstAttribute="top" secondItem="F62-Qj-i9M" secondAttribute="top" id="oYH-Pc-gRO"/>
                         </constraints>
